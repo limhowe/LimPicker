@@ -306,7 +306,7 @@ class LimCameraImagePicker: UIViewController,
         }
 
 */
-        //remove this code and change
+        //remove this code when you activate above commented code
         self.delegate?.donePicking(self, didPickedUrls: self.loadedUrls)
 
     }
